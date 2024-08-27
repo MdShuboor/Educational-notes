@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Sir's Educational Notes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Himanshu Sir's Educational Notes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#dmlt">DMLT Notes</a></li>
+                    <li><a href="#bmlt">BMLT Notes</a></li>
+                    <li><a href="#topics">Topics</a></li>
+                    <li><a href="#question-papers">Previous Year Papers</a></li>
+                    <li><a href="#test-papers">Test Papers</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Banner -->
+    <section id="home" class="banner">
+        <div class="container">
+            <h2>Welcome to a World of Learning</h2>
+            <p>Quality educational resources curated by Himanshu Sir.</p>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>Himanshu Sir is an experienced educator with a passion for teaching and a dedication to helping students excel in their studies. His years of experience in the field of Medical Laboratory Technology have made him a trusted mentor and guide for countless students.</p>
+        </div>
+    </section>
+
+    <!-- DMLT Notes Section -->
+    <section id="dmlt" class="bg-light">
+        <div class="container">
+            <h2>DMLT Notes</h2>
+            <p>Explore our extensive collection of DMLT notes, carefully organized to help you grasp complex concepts with ease.</p>
+            <!-- Add content here -->
+        </div>
+    </section>
+
+    <!-- BMLT Notes Section -->
+    <section id="bmlt">
+        <div class="container">
+            <h2>BMLT Notes</h2>
+            <p>In-depth notes for BMLT students, covering all essential topics and subjects.</p>
+            <!-- Add content here -->
+        </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section id="topics" class="bg-light">
+        <div class="container">
+            <h2>Topics</h2>
+            <p>Dive into specific topics with detailed notes, illustrations, and interactive quizzes to enhance your learning experience.</p>
+            <!-- Add content here -->
+        </div>
+    </section>
+
+    <!-- Previous Year Question Papers Section -->
+    <section id="question-papers">
+        <div class="container">
+            <h2>Previous Year Question Papers</h2>
+            <p>Access a comprehensive archive of previous years' question papers for practice and revision.</p>
+            <!-- Add content here -->
+        </div>
+    </section>
+
+    <!-- Test Papers Section -->
+    <section id="test-papers" class="bg-light">
+        <div class="container">
+            <h2>Test Papers</h2>
+            <p>Challenge yourself with custom test papers designed by Himanshu Sir to test your knowledge and prepare for exams.</p>
+            <!-- Add content here -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Learn more about the mission and goals of this educational platform, and meet the team behind the scenes.</p>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <div class="container">
+            <h2>Feedback</h2>
+            <p>Your feedback is valuable to us. Please share your thoughts and suggestions to help us improve.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Himanshu Sir's Educational Notes. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
